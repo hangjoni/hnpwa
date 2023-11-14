@@ -1,5 +1,4 @@
 <template>
-  News
   <Post :data="data" />
 </template>
 

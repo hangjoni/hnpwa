@@ -1,5 +1,4 @@
 <template>
-  Ask
   <Post :data="data" />
 </template>
 
