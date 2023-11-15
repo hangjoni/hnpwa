@@ -3,6 +3,7 @@ import Newest from "../views/Newest.vue";
 import Ask from "../views/Ask.vue";
 import Show from "../views/Show.vue";
 import Jobs from "../views/Jobs.vue";
+import Thread from "../views/Thread.vue";
 import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes = [
@@ -30,6 +31,12 @@ const routes = [
     path: "/show",
     name: "show",
     component: Show,
+  },
+  {
+    path: "/thread/:id",
+    name: "thread",
+    component: Thread,
+    props: true,
   },
 ];
 

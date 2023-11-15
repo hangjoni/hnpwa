@@ -1,10 +1,10 @@
 <template>
-  <Post :data="data" />
+  <Feed :data="data" />
 </template>
 
 <script setup>
 import { computed } from "vue";
 import useFetch from "../composables/useFetch.js";
-import Post from "../components/Post.vue";
+import Feed from "../components/Feed.vue";
 const { data } = useFetch("news");
 </script>
