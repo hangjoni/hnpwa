@@ -1,16 +1,19 @@
 <template>
   <div class="thread">
     <h1>Thread</h1>
-    <!-- <h3>{{ id }}</h3> -->
+    <Post :postData="data" />
   </div>
 </template>
 
 <script setup>
 import { useRoute } from "vue-router";
-console.log("Thread");
+import useFetchItem from "../composables/useFetchItem";
+import Post from "../components/Post.vue";
+
 const route = useRoute();
-// const id = route.params.id;
-console.log("id", route.params.id);
+console.log("Thread id", route.params.id);
+
+const { data } = useFetchItem(route.params.id);
 </script>
 
 <style scoped>
