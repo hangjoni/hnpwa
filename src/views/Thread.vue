@@ -1,6 +1,5 @@
 <template>
   <div class="thread">
-    <h1>Thread</h1>
     <Post :postData="data" />
   </div>
 </template>
