@@ -24,21 +24,23 @@ const props = defineProps(["data"]);
 
 <style scoped>
 .all-posts {
-  background-color: #000;
-  color: #ececec;
+  background-color: #f6f6ef;
+  color: #000;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .post {
+  background-color: #f6f6ef;
   max-width: 1000px;
   flex: 1;
   margin-left: auto;
   margin-right: auto;
 }
 .post-link {
+  background-color: #f6f6ef;
   text-decoration: none;
-  color: #ececec;
+  color: #000;
 }
 .top-line {
   display: flex;
@@ -47,7 +49,7 @@ const props = defineProps(["data"]);
 }
 
 .domain {
-  color: rgba(255, 180, 0, 1);
+  color: #696969;
   font-size: 0.9rem;
 }
 
