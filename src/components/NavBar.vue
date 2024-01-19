@@ -12,7 +12,7 @@
 
 <style scoped>
 nav {
-  background-color: orangered;
+  background-color: #ff6600;
   color: white;
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: flex;
@@ -29,7 +29,7 @@ a {
   text-decoration: none;
   padding: 0.8rem;
   border-radius: 3px;
-  background-color: orangered;
+  background-color: #ff6600;
 }
 
 .active-link {
@@ -39,7 +39,7 @@ a {
 .site-name {
   font-size: 1.5rem;
   font-weight: bold;
-  background-color: orangered;
+  background-color: #ff6600;
   color: black;
 }
 </style>
