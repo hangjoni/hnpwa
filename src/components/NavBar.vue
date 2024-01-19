@@ -5,6 +5,10 @@
     <router-link to="/ask" active-class="active-link">Ask</router-link>
     <router-link to="/show" active-class="active-link">Show</router-link>
     <router-link to="/jobs" active-class="active-link">Jobs</router-link>
+    <!-- include link to Github and use font awesome github icon -->
+    <a href="https://github.com/hangjoni/hnpwa">
+      <i class="fab fa-github"></i>
+    </a>
   </nav>
 </template>
 
