@@ -17,6 +17,7 @@ const { data } = useFetchItem(route.params.id);
 
 <style scoped>
 .thread {
-  color: #ccc;
+  background-color: #f6f6ef;
+  color: #000;
 }
 </style>

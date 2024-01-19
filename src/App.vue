@@ -9,4 +9,10 @@
 import NavBar from "./components/NavBar.vue";
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.app {
+  background-color: #f6f6ef;
+  width: 100vw;
+  height: 100vh;
+}
+</style>

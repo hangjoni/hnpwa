@@ -83,7 +83,7 @@ function decodeHtmlEntities(str) {
 }
 
 .post_link {
-  color: #ececec;
+  color: #000;
   font-style: italic;
   text-decoration: underline;
   font-size: 1.2rem;
